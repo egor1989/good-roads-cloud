@@ -1,0 +1,11 @@
+{
+  "name"          : "site-sample",
+  "dependencies"  : {
+    "express": ">=2.0.0",
+    "jade": ">=0.15.0",
+    "stylus": ">=0.15.0"
+  },
+  "main"          : "site-sample",
+  "version"       : "0.0.1",
+  "engines"       : {"node": ">=0.4.1"}
+}

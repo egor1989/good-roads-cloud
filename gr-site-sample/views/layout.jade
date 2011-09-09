@@ -1,0 +1,13 @@
+!!!
+html
+  head
+    title GoodRoads
+    link(rel='stylesheet', href='styles/style.css')
+    script(type='text/javascript', src='scripts/client.js')
+    script(type='text/javascript', src="scripts/socket.io.min.js")
+    script(type='text/javascript', src="http://maps.googleapis.com/maps/api/js?sensor=false")
+
+  body(onload='start()')
+    #map_canvas
+    #users
+      h1 Users

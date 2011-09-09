@@ -1,0 +1,12 @@
+{
+    "name": "gr-da-postgres"
+  , "version": "0.0.1"
+  , "description": "PostgreSQL data access layer for GoodRoads"
+  , "dependencies": {
+        "socket.io": ">= 0.8.0",
+        "pg": ">= 0.5.0",
+        "log": ">= 1.2.0"
+    }
+  , "main": "gr-da-postgres"
+  , "engines": { "node": ">= 0.4.0" }
+}
